@@ -28,7 +28,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-primary);
+    color: var(--slate);
     background-color: var(--white);
     font-family: var(--font-family);
 }
@@ -41,31 +41,23 @@ h1 {
     color: var(--white);
 }
 
-h2 {
+h2.title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
+    color: #2e2f42;
 }
 
-h3 {
+h3.title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
-}
-
-button {
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    color: var(--white);
-    background: var(--button-background);
-    cursor: pointer;
-}
-
-button:hover,
-button:active {
-    background: var(--color-active);
+    color: #2e2f42;
 }
 
 p {
@@ -77,8 +69,15 @@ a {
     color: var(--color-primary);
 }
 
-footer .logo {
-    color: var(--white);
+.address {
+    font-style: normal;
+}
+
+.address .email,
+.address .tel {}
+
+.footer .logo {
+    color: #4d5ae5;
 }
 
 a:hover,
@@ -91,32 +90,80 @@ a:focus {
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
-    color: var(--color-primary);
+    color: #4d5ae5;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo>span {
-    color: var(--logo-first);
+    color: #2e2f42;
 }
 
-#studio {
+/* SECTION 1 STUDIO */
+.studio {
     background: var(--color-primary);
 }
 
-#team {
+.studio .title {
+    letter-spacing: 0.02em
+}
+
+.btn-service {
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    color: var(--white);
+    background: var(--button-background);
+    cursor: pointer;
+}
+
+.btn-service:hover,
+.btn-service:active {
+    background: var(--color-active);
+}
+
+.btn-service:focus {
+    background-color: #404BBF;
+}
+
+/* SECTION 2 STRATEGY */
+.strategy {}
+
+
+/* SECTION 3 TEAM */
+.team {
     background: var(--cloud);
 }
 
-#team li {
+.team>.title {
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team li {
     background: var(--white);
 }
 
-footer {
+.team .title {
+    letter-spacing: 0.02em;
+}
+
+.team .description {
+    font-size: 16px
+}
+
+/* SECTION 4 PORTFOLIO */
+.portfolio {}
+
+.footer {
     background: var(--color-primary);
 }
 
-footer>p {
+.footer .logo>span {
+    color: #f4f4fd;
+}
+
+.footer>.description {
     color: var(--color-secondary);
 }
