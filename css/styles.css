@@ -92,9 +92,7 @@ a {
 }
 
 .address-link {
-  /* A validator error */
-  /* color: var(--color-address-link); */
-  color: #434455;
+  color: var(--color-address-link);
 }
 
 .nav-link:hover,
