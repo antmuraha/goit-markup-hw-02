@@ -49,7 +49,7 @@ h2.title {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  color: #2e2f42;
+  color: var(--color-primary);
 }
 
 h3.title {
@@ -58,7 +58,7 @@ h3.title {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
+  color: var(--color-primary);
 }
 
 p {
@@ -74,14 +74,14 @@ a {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
-  color: #4d5ae5;
+  color: var(--logo-first);
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .logo > span {
-  color: #2e2f42;
+  color: var(--color-primary);
 }
 
 /* HEADER */
@@ -116,12 +116,9 @@ a {
 }
 
 .btn-service:hover,
-.btn-service:active {
-  background: var(--color-active);
-}
-
+.btn-service:active,
 .btn-service:focus {
-  background-color: #404bbf;
+  background: var(--color-active);
 }
 
 /* SECTION 2 STRATEGY */
@@ -150,7 +147,7 @@ a {
 }
 
 .footer .logo > span {
-  color: #f4f4fd;
+  color: var(--color-secondary);
 }
 
 .footer > .description {
