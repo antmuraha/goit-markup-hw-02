@@ -21,7 +21,7 @@
   --button-background: var(--iris);
   --color-active: var(--ocean);
   --color-paragraph: var(--slate);
-  --color-link: var(--slate);
+  --color-link: var(--navy-blue);
 }
 
 body {
@@ -146,7 +146,7 @@ a {
   background: var(--color-primary);
 }
 
-.footer .logo > span {
+.footer .logo-tail {
   color: var(--color-secondary);
 }
 
